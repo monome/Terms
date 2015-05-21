@@ -1,2 +1,3 @@
 # Terms
-max4live bundle
+
+[monome.org/docs/app/terms](http://monome.org/docs/app/terms)
