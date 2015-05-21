@@ -1,7 +1,5 @@
 # Terms
 
-[![videoooo](images/vimeo.png)](https://vimeo.com/xxxxxxxx)
-
 *Terms*: *Sum* pulled apart. A collection of essential monome applications, synchronized and integrated within Ableton Live 9.
 
 *Terms* is a collection of Max for Live *Devices* working together to create a complete performance system within Ableton Live. Each device implements a monome application, incorporating a unified interface within Ableton Live. These apps are simplified for easy exploration with enhanced visual feedback for vari-bright grids.
@@ -9,15 +7,41 @@
 Expanded versions, and other Max for Live adaptations of grid-focused apps are available from community member [elquinto's github](https://github.com/el-quinto).
 
 
-## Installation Getting Started
+## Installation
 
 In lieu of an automated installer (coming soon directly from Ableton), there are two methods to install the Devices into your Ableton Library. If you know your way around your Ableton User Library folder, skip to option 2, otherwise you're best bet is to do this manually:
 
-- Download the [Latest Release]() of *Terms*.
+- Download the [Latest Release](https://github.com/monome/Terms/releases/latest) of *Terms* from github.
+- Unzip the file and look in the unzipped folder `Terms-x-x`.
+- Start a new Ableton Session.
+- Drag all six files into a Track's Devices strip one at a time.
+- Click the small 'Save' button in the top-right of each Device.
 
-**completed after live pack solution is figured out**
+This will add the Devices into your User Library so next time you can simply navigate to the `Max for Live` Devices category in the Browser to add the given device.
+
+### Direct Installation
+
+Instead of the manually loading & saving each Device, you can place the .amxd files directly in your User Library folder.
+
+On Mac this directory is located in your User folder, and you'll need to place the different Devices in three different sub-folders. You can check the location of your User Library in Ableton's Preferences window under the `Library` tab at left – it's the last entry.
+
+Place *Flin*, *Polygome*, *Press_Cafe* and *Step* in:
+`~/Music/Ableton/User Library/Presets/MIDI Effects/Max MIDI Effect`
+
+Place *Launchd* in:
+`~/Music/Ableton/User Library/Presets/Audio Effects/Max Audio Effect`
+
+Place *Synth* in:
+`~/Music/Ableton/User Library/Presets/Instruments/Max Instrument`
 
 
+## Getting Started
+
+Now that the Devices have been added to your User Library they can be easily instantiated in Ableton via the Device Browser as pictured below. Drag your desired Device onto a track and the application should automatically grab control of a connected monome grid.
+
+![browser](images/browser.png)
+
+If the grid isn't instantly focussed on the Device, select your grid from the dropdown at the top of the Device.
 
 ## Devices
 
@@ -89,8 +113,6 @@ Polygomé includes the same **Pitch & Scaling** options as *Flin* above. Changin
 
 A pattern performance instrument for polyrhythmic sequences. Notes are arranged vertically, while rhythms are arranged horizontally. Press different keys in the same row to play the same note with different patterns.
 
-![Press Cafe](images/presscafe.png)
-
 - Press and hold a key in a given row to start the rhythm. Release to stop.
 - Hold multiple rows for interlocking patterns.
 
@@ -103,8 +125,6 @@ The **Pitch & Scaling** settings from *Flin* are again repeated here.
 ### Launchd
 
 A simple clip launcher for navigating Live sets and having hands-on control of your sounds.
-
-![Launchd](images/launchd.png)
 
 The bottom row and far right column are reserved for special functions. The remainder of the grid is a physical *Session View* for launching clips:
 
