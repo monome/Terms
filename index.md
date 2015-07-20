@@ -113,18 +113,22 @@ Polygomé includes the same **Pitch & Scaling** options as *Flin* above. Changin
 
 A pattern performance instrument for polyrhythmic sequences. Notes are arranged vertically, while rhythms are arranged horizontally. Press different keys in the same row to play the same note with different patterns.
 
+![Press_cafe](images/press_cafe.png)
+
 - Press and hold a key in a given row to start the rhythm. Release to stop.
 - Hold multiple rows for interlocking patterns.
 
-`Rhythm`, `Swing` and `Note Length` settings are provided to fine tune the rhythmic patterns.
+`Rhythm` and `Note Length` settings are provided to fine tune the rhythmic patterns.
 
 The default mode is `Play` mode, while `Edit` and `Length` modes allow you to change the rhythmic patterns, and loop lengths of the first 8 patterns. In these modes the patterns of the first 8 keys in a row are represented vertically descending. `Length` settings other than 16 will allow for polyrhythms to occur when holding more than one row.
+
+![PC_modes](images/pc_modes.png)
 
 The **Pitch & Scaling** settings from *Flin* are again repeated here.
 
 ### Launchd
 
-A simple clip launcher for navigating Live sets and having hands-on control of your sounds.
+A simple clip launcher for navigating Live sets and having hands-on control of your sounds. This is an `Audio Effect` device designed to be placed on the `Master` bus for global control of your Live Set.
 
 The bottom row and far right column are reserved for special functions. The remainder of the grid is a physical *Session View* for launching clips:
 
