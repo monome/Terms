@@ -130,6 +130,8 @@ The **Pitch & Scaling** settings from *Flin* are again repeated here.
 
 A simple clip launcher for navigating Live sets and having hands-on control of your sounds. This is an `Audio Effect` device designed to be placed on the `Master` bus for global control of your Live Set.
 
+![launchd](images/launchd.png)
+
 The bottom row and far right column are reserved for special functions. The remainder of the grid is a physical *Session View* for launching clips:
 
 - Loaded clips are displayed with mid-brightness leds.
@@ -149,9 +151,9 @@ The far right row gives access to Scenes:
 - Keys will light when there are clips in the respective Scene.
 - Pressing this key will cue all the clips in the Scene.
 
-The bottom-right key is a special *navigation* key for moving through the Live Set:
+The bottom-right key is a special *nav* (read: navigation) key for moving through the Live Set:
 
-- Press and hold the bottom-right key
+- Press and hold the *nav* key
 - The two keys immediately above will dimly light.
 - While still holding, press the lower of the two buttons to move down through the Scenes.
 - Alternatively press the higher of the two lit keys to move back upward through the set.
