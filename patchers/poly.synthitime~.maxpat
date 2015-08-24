@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1078.0, 387.0, 1345.0, 968.0 ],
+		"rect" : [ 1449.0, 358.0, 1345.0, 968.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 11.0,
@@ -38,6 +38,7 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Helvetica Neue",
 					"fontsize" : 11.0,
 					"id" : "obj-20",
@@ -45,15 +46,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 738.0, 210.0, 213.0, 21.0 ],
+					"patching_rect" : [ 738.0, 210.0, 214.0, 21.0 ],
 					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr @bindto parent::sustain @invisible 1",
-					"varname" : "u577004518"
+					"text" : "pattr @bindto parent::Sustain @invisible 1",
+					"varname" : "u924004817"
 				}
 
 			}
@@ -72,7 +73,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -350,6 +351,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Helvetica Neue",
 					"fontsize" : 11.0,
 					"id" : "obj-6",
@@ -357,20 +359,21 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 720.0, 186.0, 229.0, 21.0 ],
-					"restore" : [ -0.176889 ],
+					"patching_rect" : [ 720.0, 186.0, 232.0, 21.0 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr @bindto parent::env-shape @invisible 1",
-					"varname" : "u353004525"
+					"text" : "pattr @bindto parent::Env-Shape @invisible 1",
+					"varname" : "u855004792"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Helvetica Neue",
 					"fontsize" : 11.0,
 					"id" : "obj-7",
@@ -378,20 +381,21 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 702.0, 162.0, 226.0, 21.0 ],
-					"restore" : [ 0.38 ],
+					"patching_rect" : [ 702.0, 162.0, 229.0, 21.0 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr @bindto parent::env-slope @invisible 1",
-					"varname" : "u051004527"
+					"text" : "pattr @bindto parent::Env-Slope @invisible 1",
+					"varname" : "u771004772"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Helvetica Neue",
 					"fontsize" : 11.0,
 					"id" : "obj-8",
@@ -399,20 +403,21 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 684.0, 138.0, 230.0, 21.0 ],
-					"restore" : [ 311.955566 ],
+					"patching_rect" : [ 684.0, 138.0, 224.0, 21.0 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr @bindto parent::env-length @invisible 1",
-					"varname" : "u805004529"
+					"text" : "pattr @bindto parent::Env-Time @invisible 1",
+					"varname" : "u729004782"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Helvetica Neue",
 					"fontsize" : 11.0,
 					"id" : "obj-13",
@@ -420,20 +425,21 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 414.0, 570.0, 229.0, 21.0 ],
-					"restore" : [ 0.19339 ],
+					"patching_rect" : [ 414.0, 570.0, 205.0, 21.0 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr @bindto parent::resonance @invisible 1",
-					"varname" : "u278004531"
+					"text" : "pattr @bindto parent::Filt-Q @invisible 1",
+					"varname" : "u937004721"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Helvetica Neue",
 					"fontsize" : 11.0,
 					"id" : "obj-35",
@@ -441,20 +447,21 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 414.0, 156.0, 224.0, 21.0 ],
-					"restore" : [ -0.016949 ],
+					"patching_rect" : [ 414.0, 156.0, 223.0, 21.0 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr @bindto parent::env2mod @invisible 1",
-					"varname" : "u019004533"
+					"text" : "pattr @bindto parent::Env-Mod @invisible 1",
+					"varname" : "u425004752"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Helvetica Neue",
 					"fontsize" : 11.0,
 					"id" : "obj-34",
@@ -462,20 +469,21 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 396.0, 132.0, 217.0, 21.0 ],
-					"restore" : [ 0.016949 ],
+					"patching_rect" : [ 396.0, 131.0, 225.0, 21.0 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr @bindto parent::envtofilt @invisible 1",
-					"varname" : "u637004535"
+					"text" : "pattr @bindto parent::Env-Filter @invisible 1",
+					"varname" : "u991004731"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Helvetica Neue",
 					"fontsize" : 11.0,
 					"id" : "obj-33",
@@ -483,20 +491,21 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 378.0, 108.0, 229.0, 21.0 ],
-					"restore" : [ 0.016949 ],
+					"patching_rect" : [ 378.0, 108.0, 225.0, 21.0 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr @bindto parent::envtopitch @invisible 1",
-					"varname" : "u696004537"
+					"text" : "pattr @bindto parent::Env-Pitch @invisible 1",
+					"varname" : "u556004662"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Helvetica Neue",
 					"fontsize" : 11.0,
 					"id" : "obj-31",
@@ -504,15 +513,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 324.0, 360.0, 221.0, 21.0 ],
+					"patching_rect" : [ 324.0, 360.0, 225.0, 21.0 ],
 					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr @bindto parent::fm-index @invisible 1",
-					"varname" : "u070004539"
+					"text" : "pattr @bindto parent::FM-Index @invisible 1",
+					"varname" : "u312004762"
 				}
 
 			}
@@ -533,12 +542,13 @@
 ,
 					"style" : "",
 					"text" : "pattr @bindto parent::fmtimes @invisible 1",
-					"varname" : "u959004541"
+					"varname" : "u662004531"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Helvetica Neue",
 					"fontsize" : 11.0,
 					"id" : "obj-29",
@@ -546,20 +556,21 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 396.0, 672.0, 228.0, 21.0 ],
-					"restore" : [ 0.881633 ],
+					"patching_rect" : [ 396.0, 672.0, 229.0, 21.0 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr @bindto parent::svf-morph @invisible 1",
-					"varname" : "u075004543"
+					"text" : "pattr @bindto parent::Filt-Morph @invisible 1",
+					"varname" : "u049004650"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Helvetica Neue",
 					"fontsize" : 11.0,
 					"id" : "obj-28",
@@ -567,20 +578,21 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 324.0, 534.0, 217.0, 21.0 ],
-					"restore" : [ 130.81279 ],
+					"patching_rect" : [ 324.0, 534.0, 227.0, 21.0 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr @bindto parent::cutoffhz @invisible 1",
-					"varname" : "u294004545"
+					"text" : "pattr @bindto parent::Filt-Cutoff @invisible 1",
+					"varname" : "u861004711"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Helvetica Neue",
 					"fontsize" : 11.0,
 					"id" : "obj-27",
@@ -588,20 +600,21 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 234.0, 324.0, 233.0, 21.0 ],
-					"restore" : [ 0.0 ],
+					"patching_rect" : [ 234.0, 324.0, 235.0, 21.0 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr @bindto parent::waveshape @invisible 1",
-					"varname" : "u842004547"
+					"text" : "pattr @bindto parent::Waveshape @invisible 1",
+					"varname" : "u103004688"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Helvetica Neue",
 					"fontsize" : 11.0,
 					"id" : "obj-15",
@@ -609,20 +622,21 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 90.0, 174.0, 217.0, 21.0 ],
-					"restore" : [ 0.004082 ],
+					"patching_rect" : [ 90.0, 174.0, 220.0, 21.0 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr @bindto parent::finetune @invisible 1",
-					"varname" : "u664004549"
+					"text" : "pattr @bindto parent::Finetune @invisible 1",
+					"varname" : "u189004672"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Helvetica Neue",
 					"fontsize" : 11.0,
 					"id" : "obj-16",
@@ -630,15 +644,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 54.0, 564.0, 204.0, 21.0 ],
-					"restore" : [ 0.0 ],
+					"patching_rect" : [ 54.0, 563.0, 206.0, 21.0 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr @bindto parent::noise @invisible 1",
-					"varname" : "u441004551"
+					"text" : "pattr @bindto parent::Noise @invisible 1",
+					"varname" : "u606004698"
 				}
 
 			}
@@ -672,7 +686,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -999,7 +1013,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -1222,7 +1236,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -1389,7 +1403,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -2306,7 +2320,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -2407,7 +2421,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 5,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -2460,7 +2474,7 @@
 													"allowdrag" : 0,
 													"hidden" : 1,
 													"id" : "obj-27",
-													"items" : 44100,
+													"items" : [ 32000, ",", 44100, ",", 48000, ",", 88200, ",", 96000 ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -2833,7 +2847,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -3170,7 +3184,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -3381,7 +3395,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -4526,7 +4540,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -4845,7 +4859,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -5382,7 +5396,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -5444,7 +5458,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 5,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -6946,6 +6960,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 288.0, 900.0, 42.0, 21.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "out~ 1"
 				}
@@ -6961,6 +6979,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 288.0, 12.0, 28.0, 21.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "in 1"
 				}
